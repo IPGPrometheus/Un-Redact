@@ -1,0 +1,11 @@
+services:
+   un-redact:
+    devices:
+      - /dev/fuse
+    cap_add:
+      - SYS_ADMIN
+    security_opt:
+      - apparmor:unconfined
+    build: .
+    ports:
+      - 5800:5800
