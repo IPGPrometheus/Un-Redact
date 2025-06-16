@@ -1,5 +1,6 @@
 services:
    un-redact:
+    container_name: 'Un-Redact'
     devices:
       - /dev/fuse
     cap_add:
@@ -9,3 +10,6 @@ services:
     build: .
     ports:
       - 5800:5800
+    labels:
+       net.unraid.docker.webui: 'http://[IP]:[PORT:5800]'
+       net.unraid.docker.icon: 'https://redact.dev/images/appicon.png'
