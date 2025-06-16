@@ -6,7 +6,7 @@ You will need a one item beforehand. Make sure you have Docker Compose Manager a
       ----> https://forums.unraid.net/topic/114415-plugin-docker-compose-manager/
 
 Make sure you do the following steps: 
-1. Copy the following code to run. Or download into your dir of choice. 
+1. Open terminal and copy the following code to run. Or download into your dir of choice. 
     
 cd /mnt/user/appdata/ 
 git clone https://github.com/IPGPrometheus/Un-Redact.git
